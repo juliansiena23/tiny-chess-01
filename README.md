@@ -29,6 +29,10 @@ Practice trials against the house gauntlet (official scorer):
 
 Sunfish's 4 KB baseline rates about 1325 on the same trials.
 
+Development: built and tested with the competition kit's own env and
+scorer (no Docker needed locally); the engine is perft-verified and
+plays every game through the env, deterministic at a fixed node budget.
+
 ## Running
 
 The engine plays through the competition env only:
